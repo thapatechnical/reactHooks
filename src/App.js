@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import RulesHook from './component/RulesHook';
 
 const App = () => {
 
@@ -9,24 +10,21 @@ const App = () => {
 
   // var val = 'thapa technical';
 
-  const [myName, setMyName] = useState('thapa techncial Subs');
+  // const [myName, setMyName] = useState('thapa techncial Subs');
 
-  const changeName = () => {
-    // val = "vinod thapa";
-    // console.log(val);
-    let val = myName;
+  // const changeName = () => {
+  //   // val = "vinod thapa";
+  //   // console.log(val);
+  //   let val = myName;
 
-    if (val === "thapa techncial Subs") {
-      setMyName('vinod thapa');
-    } else {
-      setMyName('thapa techncial Subs');
-    }
+    (val === 'thapa techncial Subs') ?
+      setMyName('vinod thapa') : setMyName('thapa techncial Subs');
   }
-    console.log(myName);
+  
+  //   console.log(myName);
   return (
     <div>
-      <h1>{ myName }</h1>
-      <button className="btn" onClick={changeName} >click me plz</button>
+        <RulesHook />
     </div>
   )
 }
