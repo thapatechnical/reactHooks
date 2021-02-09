@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-import RulesHook from './component/RulesHook';
+// import RulesHook from './component/RulesHook';
+import UseStateArray from "./component/UseStateArray";
+// import UseStateObject from './component/UseStateObject';
 
 const App = () => {
 
@@ -17,14 +19,15 @@ const App = () => {
   //   // console.log(val);
   //   let val = myName;
 
-    (val === 'thapa techncial Subs') ?
-      setMyName('vinod thapa') : setMyName('thapa techncial Subs');
-  }
+    // (val === 'thapa techncial Subs') ?
+    //   setMyName('vinod thapa') : setMyName('thapa techncial Subs');
   
   //   console.log(myName);
   return (
     <div>
-        <RulesHook />
+      {/* <RulesHook /> */}
+      <UseStateArray />
+      {/* <UseStateObject /> */}
     </div>
   )
 }
