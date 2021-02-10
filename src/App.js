@@ -3,6 +3,7 @@ import './App.css';
 // import RulesHook from './component/RulesHook';
 import UseStateArray from "./component/UseStateArray";
 // import UseStateObject from './component/UseStateObject';
+import ShortCirEval from './component/ShortCirEval';
 
 const App = () => {
 
@@ -25,9 +26,7 @@ const App = () => {
   //   console.log(myName);
   return (
     <div>
-      {/* <RulesHook /> */}
-      <UseStateArray />
-      {/* <UseStateObject /> */}
+      <ShortCirEval />
     </div>
   )
 }
