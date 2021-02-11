@@ -4,6 +4,7 @@ import './App.css';
 import UseStateArray from "./component/UseStateArray";
 // import UseStateObject from './component/UseStateObject';
 import ShortCirEval from './component/ShortCirEval';
+import BasicForm from "./component/forms/basicForm"
 
 const App = () => {
 
@@ -26,7 +27,7 @@ const App = () => {
   //   console.log(myName);
   return (
     <div>
-      <ShortCirEval />
+      <BasicForm />
     </div>
   )
 }
