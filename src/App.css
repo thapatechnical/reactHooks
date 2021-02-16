@@ -29,8 +29,12 @@ div {
   flex-direction: column;
 }
 
+p {
+  font-size: 4rem;
+}
+
 h1 {
-  font-size: 3rem;
+  font-size: 7rem;
   text-transform: capitalize;
 }
 

@@ -5,12 +5,18 @@ const UseEffects1 = () => {
     const [coutn, setCoutn] = useState(0);
 
     useEffect(() => {
+        console.log("I am first one");
         if (coutn >= 1) {
              document.title = `Chats (${coutn})`
         } else {
              document.title = `Chats `
         }
-    });
+    }, [coutn]);
+
+    useEffect(() => {
+      console.log("I am fine");
+    }, []);
+
 
     console.log("Hello outside");
     

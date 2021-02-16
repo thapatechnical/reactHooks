@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import UseEffects1 from "./component/useEffect/useEffects1"
+import UseEffect2 from "./component/useEffect/useEffect2"
 
 const App = () => {
 
@@ -23,7 +24,7 @@ const App = () => {
   //   console.log(myName);
   return (
     <div>
-      <UseEffects1 />
+      <UseEffect2 />
     </div>
   )
 }
