@@ -22,7 +22,6 @@ const UseEffect2 = () => {
     });
 
 
-
     return (
         <div>
             <p>The actual size of the window is:</p>
@@ -32,3 +31,4 @@ const UseEffect2 = () => {
 }
 
 export default UseEffect2
+

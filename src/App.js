@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import UseEffects1 from "./component/useEffect/useEffects1"
 import UseEffect2 from "./component/useEffect/useEffect2"
+import UseEffectAPI from "./component/useEffect/useEffectAPI"
 
 const App = () => {
 
@@ -24,7 +25,7 @@ const App = () => {
   //   console.log(myName);
   return (
     <div>
-      <UseEffect2 />
+      <UseEffectAPI />
     </div>
   )
 }
