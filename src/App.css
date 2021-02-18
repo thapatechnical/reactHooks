@@ -155,7 +155,12 @@ h2 {
 
 .textLeft {
   text-align: left;
-  margin-left: ;
+}
+
+.loadingDiv {
+  height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
 .card {
