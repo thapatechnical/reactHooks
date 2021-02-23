@@ -3,6 +3,8 @@ import './App.css';
 import UseEffects1 from "./component/useEffect/useEffects1"
 import UseEffect2 from "./component/useEffect/useEffect2"
 import UseEffectAPI from "./component/useEffect/useEffectAPI"
+import Uncontrolled from "./component/forms/uncontrolled";
+import UseReducer from "./component/useReducer/useReducer";
 
 const App = () => {
 
@@ -25,7 +27,7 @@ const App = () => {
   //   console.log(myName);
   return (
     <div>
-      <UseEffectAPI />
+      <UseReducer />
     </div>
   )
 }
