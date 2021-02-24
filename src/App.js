@@ -5,6 +5,7 @@ import UseEffect2 from "./component/useEffect/useEffect2"
 import UseEffectAPI from "./component/useEffect/useEffectAPI"
 import Uncontrolled from "./component/forms/uncontrolled";
 import UseReducer from "./component/useReducer/useReducer";
+import ComA from "./component/useContext/ComA";
 
 const App = () => {
 
@@ -27,7 +28,7 @@ const App = () => {
   //   console.log(myName);
   return (
     <div>
-      <UseReducer />
+      <ComA />
     </div>
   )
 }
