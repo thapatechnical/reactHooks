@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react'
-import useTitleCount from "./useTitleCount";
+import React, {useState} from 'react'
+import useTitleCount from "../useTitleCount";
 
-const UseEffects1 = () => {
+const Test = () => {
 
     const [count, setCount] = useState(0);
 
-    // custom hook 
+   // custom hook 
     useTitleCount(count);
 
     console.log("Hello outside");
@@ -15,9 +15,9 @@ const UseEffects1 = () => {
             <h1>{count}</h1>
             <button className="btn" onClick={
                 () => setCount(count + 1)
-            } >Click😀</button>
+            } >Click Test😀</button>
         </div>
     )
 }
 
-export default UseEffects1
+export default Test
