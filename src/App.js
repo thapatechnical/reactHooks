@@ -7,6 +7,7 @@ import Uncontrolled from "./component/forms/uncontrolled";
 import UseReducer from "./component/useReducer/useReducer";
 import ComA from "./component/useContext/ComA";
 import Test from "./component/useEffect/github/test";
+import Home from "./component/myapp/home";
 
 const App = () => {
 
@@ -27,11 +28,7 @@ const App = () => {
     //   setMyName('vinod thapa') : setMyName('thapa techncial Subs');
   
   //   console.log(myName);
-  return (
-    <div>
-      <Test />
-    </div>
-  )
-}
+  return (<Home />)
+} 
 
 export default App

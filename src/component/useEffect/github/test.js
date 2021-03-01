@@ -5,10 +5,10 @@ const Test = () => {
 
     const [count, setCount] = useState(0);
 
-   // custom hook 
+    //* custom hook
     useTitleCount(count);
 
-    console.log("Hello outside");
+   console.log("Hello outside");
     
     return (
         <div>

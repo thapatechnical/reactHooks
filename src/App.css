@@ -1,15 +1,15 @@
 html {
-  font-size: 62.5%;
+  font-size: 90.5%;
 }
 
 body {
   min-height: 100vh;
   width: 100vw;
   background-color: #34495e;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
   color: aliceblue;
   font-family: "Raleway", sans-serif;
 }
@@ -22,12 +22,12 @@ body {
   color: #8be3fb;
 }
 
-div {
+/* div {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
+} */
 
 p {
   font-size: 4rem;
@@ -71,9 +71,9 @@ h1 {
   margin-left: 4rem;
 }
 
-.btn:hover {
+/* .btn:hover {
   background-color: #136ca7;
-}
+} */
 
 form {
   background: cornflowerblue;
