@@ -3,10 +3,10 @@
 // 3: we can directly import or we can directly write it using React.hookName.
 // 4: Don’t call Hooks inside loops, conditions, or nested functions.
 
-import React from 'react'
+import React, { useState } from 'react'
 
 const RulesHook = () => {
-    const [myName, setMyName] = React.useState('Vinod technical');
+    const [myName, setMyName] = useState('Vinod technical');
     return (
         <div>
             <h1>{ myName }</h1>
